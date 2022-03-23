@@ -18,19 +18,49 @@
         </div>
     </header>
       <h1>Using this page to test tables</h1>
-      <script>
-      let table = '';
-      let rows = 4;
-      let cols = 2;
-      for (let r = 0; r < rows;r++){
-          table += '<tr>';
-              for(let c = 0; c < cols;c++) {
-                  table += '<td>' + c + '</td>';
-              }
-          table += '</tr>';
+    
+    <style>
+      table {
+        font-family: monospace;
+        border-collapse: separate;
+        width: 100%;
       }
       
-      document.write('<table>' + table + '</table>')
-    </script>
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 15px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #b4d2b2;
+      }
+      </style>
+      </head>
+      <body>
+      
+      <h2>Character Stats</h2>
+      
+      <table>
+        <tr>
+          <td>Level: </td>
+          <td>25</td>
+        </tr>
+        <tr>
+          <td>Location: </td>
+          <td>Deerfield Beach, Florida</td>
+        </tr>
+        <tr>
+          <td>Pronouns: </td>
+          <td>She/Her</td>
+        </tr>
+        <tr>
+          <td>Favorite Food: </td>
+          <td>Hibachi Fried Rice</td>
+        </tr>
+      </table>
+
+
+
   </body>
 </html> 
