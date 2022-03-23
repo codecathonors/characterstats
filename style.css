@@ -67,4 +67,7 @@ nav a:hover::before {
 
 .listleft {
     text-align: left;
+    color: #475e45;
+    float: left;
+    width: 800px;
 }
