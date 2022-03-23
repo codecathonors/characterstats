@@ -2,4 +2,33 @@ body {
     background-color: #ffb6c1;
     text-align: center;
     font-family: monospace;
+    margin: 0;
+}
+/*need to push down top margin*/
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    background-color: #FFD580;
+    padding: .5em;
+}
+
+nav {
+    float: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 80px;
+    padding-top: 25px;
 }
