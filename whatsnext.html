@@ -16,6 +16,21 @@
                 </ul>
             </nav>
         </div>
-      <h1>page about future dreams and aspirations</h1>
+    </header>
+      <h1>Using this page to test tables</h1>
+      <script>
+      let table = '';
+      let rows = 4;
+      let cols = 2;
+      for (let r = 0; r < rows;r++){
+          table += '<tr>';
+              for(let c = 0; c < cols;c++) {
+                  table += '<td>' + c + '</td>';
+              }
+          table += '</tr>';
+      }
+      
+      document.write('<table>' + table + '</table>')
+    </script>
   </body>
 </html> 

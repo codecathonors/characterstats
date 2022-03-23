@@ -6,6 +6,10 @@ body {
 }
 /*need to push down top margin*/
 
+h1 {
+    color: #475e45;
+}
+
 .container {
     width: 80%;
     margin: 0 auto;
@@ -66,8 +70,15 @@ nav a:hover::before {
 }
 
 .listleft {
+    font-size: larger;
     text-align: left;
     color: #475e45;
     float: left;
     width: 800px;
+    background: #69a465;
+    padding-right: 10px;
+}
+
+table {
+    border: #323036;
 }
