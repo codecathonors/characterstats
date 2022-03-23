@@ -10,6 +10,10 @@ h1 {
     color: #475e45;
 }
 
+h2 {
+    color:#475e45;
+}
+
 .container {
     width: 80%;
     margin: 0 auto;
@@ -79,6 +83,26 @@ nav a:hover::before {
     padding-right: 10px;
 }
 
+tr:hover {background-color: #d5d4d9;}
+
 table {
-    border: #323036;
-}
+    font-family: monospace;
+    border-collapse: separate;
+    width: 20%;
+    float: right;
+    margin-right: 20em;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 30px;
+  }
+
+  td {
+      width: 60px;
+  }
+
+  td + td {
+      width: auto;
+  }
