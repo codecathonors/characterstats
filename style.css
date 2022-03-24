@@ -106,3 +106,8 @@ table {
   td + td {
       width: auto;
   }
+
+  .images {
+      border-style: double;
+      border-width: 10px;
+  }
